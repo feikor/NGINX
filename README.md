@@ -22,3 +22,12 @@ http://nginx.org/download/nginx-1.14.2.tar.gz
 
 rpm -qa pcre pcre-devel
 rpm -qa | grep pcre
+
+rpm -qa pcre
+pcre-8.32-15.el7_2.1.x86_64
+pcre-8.32-15.el7_2.1.i686
+
+yum remove pcre-8.32-15.el7_2.1.i686
+
+
+
