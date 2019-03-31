@@ -12,6 +12,11 @@ http://nginx.org/en/download.html
 
 http://nginx.org/download/nginx-1.14.2.tar.gz
 
+
+ls -lh
+
+tar xf nginx-1.14.2.tar.gz
+
  ./configure --user=www --group=www --with-http_stub_status_module --with-http_ssl_module --prefix=/application/nginx-1.14.2/
  
  yum install openssl-devel -y
@@ -28,6 +33,12 @@ pcre-8.32-15.el7_2.1.x86_64
 pcre-8.32-15.el7_2.1.i686
 
 yum remove pcre-8.32-15.el7_2.1.i686
+
+tar xf nginx-1.14.2.tar.gz
+
+yum list|grep nginx
+
+
 
 
 
