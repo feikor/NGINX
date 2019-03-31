@@ -61,6 +61,12 @@ yum remove 包名（不支持*）
 rpm -ivh 包名（支持*）：安装rpm包
 rpm -e 包名（不支持*）：卸载rpm包
 
+whereis gcc
+
+CC=gcc
+
+export CC
+
 
  
 
