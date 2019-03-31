@@ -38,6 +38,14 @@ tar xf nginx-1.14.2.tar.gz
 
 yum list|grep nginx
 
+ ./configure --user=www --group=www --with-http_stub_status_module --with-http_ssl_module --prefix=/application/nginx-1.14.2/
+./configure: error: C compiler cc is not found
+
+yum install gcc -y
+
+
+
+
 
 
 
