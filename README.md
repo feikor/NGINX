@@ -20,4 +20,5 @@ http://nginx.org/download/nginx-1.14.2.tar.gz
  useradd www -s /sbin/nologin/ -M
 
 
-
+rpm -qa pcre pcre-devel
+rpm -qa | grep pcre
