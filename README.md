@@ -42,11 +42,21 @@ yum list|grep nginx
 ./configure: error: C compiler cc is not found
 
 yum install gcc -y
+ yum install openssl-devel -y
+ 
+ 
+./configure: error: SSL modules require the OpenSSL library.
+ yum install openssl-devel -y
+
+
+ useradd www -s /sbin/nologin/ -M
+ 
+ ln -s /application/nginx-1.14.2/ /application/nginx
 
 
 
-
-
+ 
+ 
 
 
 
